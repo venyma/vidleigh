@@ -99,7 +99,7 @@ if (isset($_POST["update_avatar"]) || isset($_POST["delete_avatar"])) {
                     notification($upload["message"], "/channel_setup", "red");
                 }
             } else {
-                notification("You must use a valid image", "/channel_setup", "red");
+                notification("You must use an IMAGE, okay? AN IMAGE.", "/channel_setup", "red");
                 exit();
             }
         } elseif (isset($_POST["delete_avatar"])) {
@@ -122,13 +122,13 @@ if (isset($_POST["update_avatar"]) || isset($_POST["delete_avatar"])) {
                                 notification($upload["message"], "/channel_setup", "red");
                             }
                         } else {
-                            notification("Thumbnail of video doesn't exist", "/channel_setup", "red");
+                            notification("Thumbeknayle of video doesn't exist", "/channel_setup", "red");
                         }
                     } else {
                         notification("Video doesn't exist", "/channel_setup", "red");
                     }
                 } else {
-                    $_PAGE->add_error(array("vidlii_av" => "You must use a vidlii video!"));
+                    $_PAGE->add_error(array("vidlii_av" => "FART"));
                 }
             } else {
                 $DB->modify("UPDATE users SET avatar = :AVATAR WHERE username = :USERNAME",
@@ -184,7 +184,7 @@ $Account_Title = "Channel Setup";
 
 
 $_PAGE->set_variables(array(
-    "Page_Title"        => "Channel Setup - VidLii",
+    "Page_Title"        => "Channel Setup - iLAD",
     "Page"              => "Main",
     "Page_Type"         => "Home",
     "Show_Search"       => false
