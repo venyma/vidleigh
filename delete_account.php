@@ -32,8 +32,8 @@ if (isset($_POST["delete_submit"]) || isset($_POST["delete_agree"])) {
 	}
 	
 	if ($CodeExists) {
-		$_SESSION["notification"]   = "A termination code has already been sent to your e-mail address,<br>please wait for $Count before trying again.";
-		$_SESSION["n_color"]        = "red";
+		$_SESSION["notification"]   = "A termination code has already been sent to your email address,<br>please wait for $Count before trying again.";
+		$_SESSION["n_color"]        = "green";
 	}
 }
 
@@ -72,13 +72,13 @@ if (isset($_POST["delete_agree"]) && !$CodeExists) {
 //				$mail->SMTPSecure   = 'ssl';
 //				$mail->Port         = 465;
 //                $mail->isSMTP();
-//				$mail->setFrom('noreply@vidlii.com', 'VidLii');
+//				$mail->setFrom('noreply@vidlii.com', '6-7');
 //				$mail->addAddress($Info["email"], $_USER->username);
 //				$mail->addReplyTo('noreply@vidlii.com', 'Don\'t Reply!');
 //				$mail->addCC('noreply@vidlii.com');
 //				$mail->addBCC('noreply@vidlii.com');
 //				$mail->isHTML(true);
-//				$mail->Subject = 'VidLii Termination';
+//				$mail->Subject = '6-7 Termination';
 //				$mail->Body = '
 //					<body style="background-color:#eff2ff;font-family:Arial, Helvetica, sans-serif">
 //					<div style="margin: 10px 0 10px 0;text-align:center;padding-top:10px"><img src="/img/Vidlii6.png" width="200px"></div>
