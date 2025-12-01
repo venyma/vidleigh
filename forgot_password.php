@@ -39,7 +39,7 @@ if (!isset($_GET["code"]) && !isset($_GET["reject"])) {
 
                     $mail->isHTML(true);
 
-                    $mail->Subject = 'VidLii Password';
+                    $mail->Subject = 'HEY BROOO';
                     $mail->Body = 'You requested that your password should be reset, click on the link below if that is true:<br><br><strong><a href="/forgot_password?code=' . $Code . '">RECOVER</a></strong><br><br><br>If that is not true, please click the link below:<br><br><strong><a href="/forgot_password?reject=' . $Code . '">REJECT</a></strong>';
 
                     $mail->send();
@@ -56,7 +56,7 @@ if (!isset($_GET["code"]) && !isset($_GET["reject"])) {
         }
     }
     $_PAGE->set_variables(array(
-        "Page_Title"        => "Forgot Password - VidLii",
+        "Page_Title"        => "Forgot Password - 6-7",
         "Page"              => "Forgot",
         "Page_Type"         => "Home",
         "Show_Search"       => false
