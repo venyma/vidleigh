@@ -8,6 +8,6 @@ This is the source code of iLAD, forked from [VidLii](https://github.com/eviekek
 ## Credits
 * The VidLii team
 * 678r
-* The Venyma Network
+* The Venyma Network  
 ![iLAD](https://raw.githubusercontent.com/venyma/vidleigh/refs/heads/master/vidlii.png)
 ![Venyma Network](https://raw.githubusercontent.com/venyma/logos/refs/heads/main/favicon.png)
